@@ -75,6 +75,7 @@ button {
 
 .hero-btn button {
     font-size: 24px;
+    /* margin-left: 2px; */
 }
 
 .hero-2nd-btn {
@@ -88,34 +89,6 @@ button {
     margin-bottom: 8px;
 }
 
-@media screen and (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .heroContent {
-        text-align: center;
-    }
-
-    .hero h1 {
-        font-size: 64px;
-        line-height: 80px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .hero h1 {
-        font-size: 48px;
-        line-height: 64px;
-    }
-
-    .hero p {
-        font-size: 16px;
-    }
-
-    .hero-btn {
-        flex-direction: column;
-        gap: 10px;
-    }
+.brand-icons {
+    margin: 10px;
 }
